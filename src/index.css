@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: Krub;
+
+  --color-darkbg: #091242;
+  --color-main: #fff;
+  --color-gradient: linear-gradient(127deg, #FFB629 0%, #FFDA56 50.72%, #FFD7A6 100%);
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content-spacer {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
+
