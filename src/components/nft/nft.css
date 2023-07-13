@@ -1,0 +1,56 @@
+.NFT__nft {
+    display: flex;
+    flex-direction: column;
+}
+
+.NFT__nft-heading {
+    display: flex;
+    padding: 20px 30px 25px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius-bottom);
+}
+
+.title{
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-600);
+    line-height:var(--line-height-140);
+    margin-bottom: var(--size-5px);
+}
+
+.author-card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: var(--size-25px);
+}
+
+.author {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-140);
+}
+
+.NFT__nft-prices {
+    min-width: var(--size-270px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.type {
+    font-family: var(--font-num);
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-110);
+    margin-bottom: var(--size-10px);
+    color: var(--caption-label-text)
+}
+
+.quantity {
+    font-family: var(--font-num);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-140);
+}

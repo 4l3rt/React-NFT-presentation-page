@@ -1,0 +1,27 @@
+
+.column {
+    flex-direction: column;
+}
+
+.NFT__trending-heading {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.NFT__trending-heading h1 {
+    font-size: var(--font-size-38);
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-140);
+    margin-bottom: var(--size-10px);
+}
+
+.NFT__trending-components {
+    display: grid;
+    grid-template: 525px / 1fr 1fr 1fr ;
+    column-gap: var(--size-30px);
+}
+
+
+
+

@@ -1,0 +1,44 @@
+.NFT__Joinus {
+    padding-top: var(--size-40px);
+    padding-bottom: var(--size-80px);
+}
+
+.joinus-card {
+    background-color: var(--bg-secondary);
+    border-radius: var(--size-20px);
+    padding: var(--size-60px);
+}
+
+.NFT__joinus-heading-container  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--size-80px);
+    margin-top: var(--size-20px);
+}
+
+.NFT__joinus-heading-container h1 {
+    font-size: var(--font-size-38);
+    font-weight: var(--font-weight-600);
+    margin-bottom: var(--size-10px);
+    line-height: var(--line-height-120);
+}
+
+.NFT__joinus-heading-container p {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-200);
+    margin-bottom: var(--size-40px);
+    line-height: 160%;
+}
+
+.NFT__joinus-submit {
+    display: flex;
+    align-items: center;
+    max-height: var(--size-60px);
+    margin-top: var(--size-40px);
+}
+
+.NFT__joinus-heading-container input::placeholder {
+    font-family: var(--font);
+    color: var(--color-bg)
+}

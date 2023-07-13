@@ -1,0 +1,27 @@
+
+.shroom-img {
+    width: 100%;
+}
+
+.NFT__howItWorks-content-padding {
+    padding-top: var(--size-40px);
+    padding-bottom: var(--size-80px);
+}
+
+.NFT__howItWorks-heading h1 {
+    font-size: var(--font-size-38);
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-120);
+    margin-bottom: var(--size-10px);
+}
+
+.NFT__howItWorks-heading p {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-160);
+    margin-bottom: var(--size-50px);
+}
+
+.NFT__howItWorks-components {
+    display: flex;
+}

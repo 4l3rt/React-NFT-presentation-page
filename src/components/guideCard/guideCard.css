@@ -1,0 +1,38 @@
+.NFT__guideCard {
+    padding: 10px 30px 30px 30px;
+    max-width: var(--size-330px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius-full);
+}
+
+.NFT__guideCard img {
+    position: relative;
+    top: 0;
+}
+
+.NFT__guideCard h1 {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-140);
+    margin-top: var(--size-20px);
+    margin-bottom: var(--size-10px);
+
+}
+
+.NFT__guideCard p {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-140);
+    align-self: stretch;
+    text-align: center;
+}
+
+.NFT__guideCard-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

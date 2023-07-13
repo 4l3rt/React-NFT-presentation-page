@@ -1,0 +1,54 @@
+.trending-grid {
+    max-width: var(--size-330px);
+    max-height: var(--size-445px);
+    display: grid;
+    grid-template: 3fr 1fr / repeat(3, 1fr);
+    row-gap: var(--size-15px);
+    column-gap: var(--size-15px);   
+}
+
+.NFT__heading_img-count {
+    display: flex;
+    width: var(--size-100px);
+    height: var(--size-100px);
+    padding: var(--size-30px) var(--size-15px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    border-radius: var(--size-20px);
+    font-family: var(--font-num);
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-400);
+    color: var(--color-text);
+}
+
+.img-main {
+    grid-row: 1 / 2;
+    grid-column: span 3;
+}
+
+.img-secondary {
+    grid-column: span 2;
+}
+
+.NFT__trending-authors {
+    flex-direction: column;
+    margin-top: var(--size-15px);
+}
+
+.NFT__trending-authors h1 {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-400);
+    margin-bottom: var(--size-10px);
+}
+
+.NFT__trending-authors p {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}

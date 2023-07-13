@@ -1,113 +1,40 @@
-.transit__navbar {
-    width: 100%;
-    padding-top: 62px;
-    padding-bottom: 62px;
-    display: flex;
-    background-color: var(--color-darkbg);
-    flex: wrap;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-}
-
-.transit__navbar-spacer{
+.NFT__navbar{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: var(--size-20px) var(--size-50px);
 }
 
-.transit__navbar-logo {
-    width: 210.13px;
-    height: 36px;
-    flex-shrink: 0;
-}
-
-.transit__navbar-info {
+.NFT__logo{
     display: flex;
     align-items: center;
-    gap: 39px;
 }
 
-.transit__navbar-card {
-    display: flex;
+.NFT__navbar-logo img:first-child {
+    width: var(--size-30px);
+    height: var(--size-30px);
+    margin-right: var(--size-10px);
+}
+
+.NFT__navbar-anchors {
+    display: flex;  
     align-items: center;
-    gap: 17px;
-    width: 256px;
-    height: 63px;
 }
 
-.transit__navbar-card_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: var(--color-main);
-    font-family: var(--font-family);
-    font-size: 14px;  
+.NFT__navbar-anchors a {
+    padding: 0 var(--size-20px);
+    margin-right: var(--size-10px);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-500);
 }
 
-.transit__navbar-icon {
-    width: 63px;
-    height: 63px;
-    flex-shrink: 0;
+.NFT__navbar-anchors button {
+    padding: var(--btn-small-padding);
+    background-color: var(--color-primary);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-500);
+    line-height: var(--line-height-140);
 }
 
-.transit__navbar-navigation{
-    background-color: rgba(9, 18, 66, 0.25);;
-    width: 100%;
-    
-}
-
-.transit__navbar-navigation_links {
-    display: flex;
-    align-items: center;
-    gap: 30px;  
-    color: var(--color-main);
-    font-family: var(--font-family);
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin: 0;
-}
-
-.line {
-    width: 1px;
-    height: 19px;
-    background: rgba(255, 255, 255, 0.20);  
-     
-}
-
-.pages-cont {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    
-}
-
-.transit__navbar-navigation_social {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-
-.transit__navbar-navigation_social-container {
-    display: flex;
-    gap: 24px;
-}
-
-.transit__navbar-navigation_btn {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 52px;
-    font-family: var(--font-family);
-    font-size: 16px;
-    font-weight: 600;
-    background-color: var(--color-main);
-    color: #23212A;
-}
-
-.transit__headerImg {
-    background-image: url(../../assets/Photo.png);
-    height: 870px;
-}

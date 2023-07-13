@@ -1,24 +1,46 @@
 import React from "react";
 import './header.css'
-import button from '../../assets/Button.png'
+import imgLogo from '../../assets/RocketLaunch.png'
+import headerImg from '../../assets/Image Placeholder.png'
+import avatar from '../../assets/Avatar Placeholder.png'
+
+
 
 const Header = () => {
   return (
-
-    <div className="transit__header content-spacer">
-        <div className="transit__header-container">
-          <div className="transit__header-txt-top">
-            <div className="transit__header-line"/>
-            <h6 className="transit__header_h6">Logistics & Supply Chain Solutions</h6>
+    <div className="NFT__header section-container">
+      <div className="content-spacer content-padding">
+        <div className="NFT__header_heading-container">
+            <h1 className="txt-basics NFT__header-heading" >Discover digital art & Collect NFTs</h1>
+            <p className="txt-basics NFT__header_heading-txt" >NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
+            <button className="btn-basics"> <img className="logo-margin" src={imgLogo}/> Get Started</button>
+            <div  className="NFT__header_info-container">
+              <div className="NFT__header-info">
+                <h1 className="txt-basics">240k+ </h1>
+                <p className="txt-basics" >Total Sale </p>
+              </div>
+              <div className="NFT__header-info">
+                <h1 className="txt-basics" >100k+</h1>
+                <p className="txt-basics" >Auctions</p>
+              </div>
+              <div className="NFT__header-info">
+                <h1 className="txt-basics" >240k+</h1>
+                <p className="txt-basics">Artists</p>
+              </div>
+              </div>
+          </div>
+          <div className="NFT__header_img-container">
+              <img src={headerImg}/>
+              <div className="NFT__header_img-info">
+                <h1 className="txt-basics">Space Walking</h1>
+                <div className="NFT__header_img-artist">
+                  <img className="logo-margin" src={avatar}/>              
+                  <p className="txt-basics" >Space Walking</p>
+                </div>
+            </div>
+          </div>  
         </div>
-            <h1 className="transit__header-main-txt" >Your Gateway</h1>
-            <h1 className="transit__header-main-txt">to any Destination in the World</h1>
-            <p className="transit__header_p-bottom">In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus. </p>
-        <div className="transit__header-btn">
-            <img src={button}/>  
-        </div>
-        </div>
-    </div>
+      </div>
   )
 }
 

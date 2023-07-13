@@ -1,0 +1,20 @@
+
+.NFT__categories h1 {
+    font-size: var(--font-size-38);
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-120);
+    margin-bottom: var(--size-60px);
+}
+
+.NFT_categories-components {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(4, 1fr);
+    column-gap: var(--size-30px);
+    row-gap: var(--size-30px);
+     
+}
+
+.NFT_categories-component {
+    grid-column: span 1;
+    grid-row: span 1;
+}

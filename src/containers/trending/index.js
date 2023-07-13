@@ -1,0 +1,13 @@
+export {default as img1} from '../../assets/Trending-img1.png'
+export {default as img2} from '../../assets/Trending-img2.png'
+export {default as img3} from '../../assets/Trending-img3.png'
+export {default as img4} from '../../assets/Trending-img4.png'
+export {default as img5} from '../../assets/Trending-img5.png'
+export {default as img6} from '../../assets/Trending-img6.png'
+export {default as img7} from '../../assets/Trending-img7.png'
+export {default as img8} from '../../assets/Trending-img8.png'
+export {default as img9} from '../../assets/Trending-img9.png'
+export {default as avatar1} from '../../assets/Trending-Avatar1.png'
+export {default as avatar2} from '../../assets/Trending-Avatar2.png'
+export {default as avatar3} from '../../assets/Trending-Avatar3.png'
+
