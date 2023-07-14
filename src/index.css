@@ -113,6 +113,7 @@ input {
   border-radius: var(--border-radius-full);
   z-index: 0;
   border: none;
+  outline: none;
 }
 
 
