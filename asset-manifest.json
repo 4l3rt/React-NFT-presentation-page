@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-NFT-presentation-page/static/css/main.dd105d28.css",
+    "main.css": "/React-NFT-presentation-page/static/css/main.b3ffc353.css",
     "main.js": "/React-NFT-presentation-page/static/js/main.a3fb8e57.js",
     "static/media/NFT Highlight.png": "/React-NFT-presentation-page/static/media/NFT Highlight.e521ee7e6b3cb8ce8cb4.png",
     "static/media/Image Placeholder.png": "/React-NFT-presentation-page/static/media/Image Placeholder.5beb3ee233410deddc60.png",
@@ -41,11 +41,11 @@
     "static/media/Trending-img8.png": "/React-NFT-presentation-page/static/media/Trending-img8.910b1628754eb98ed31e.png",
     "static/media/Trending-img9.png": "/React-NFT-presentation-page/static/media/Trending-img9.10f21560dd11c066ce87.png",
     "index.html": "/React-NFT-presentation-page/index.html",
-    "main.dd105d28.css.map": "/React-NFT-presentation-page/static/css/main.dd105d28.css.map",
+    "main.b3ffc353.css.map": "/React-NFT-presentation-page/static/css/main.b3ffc353.css.map",
     "main.a3fb8e57.js.map": "/React-NFT-presentation-page/static/js/main.a3fb8e57.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd105d28.css",
+    "static/css/main.b3ffc353.css",
     "static/js/main.a3fb8e57.js"
   ]
 }
