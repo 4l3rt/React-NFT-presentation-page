@@ -46,8 +46,8 @@
   --size-250px: 250px;
   --size-270px: 270px;
   --size-330px: 330px;
+  --size-400px: 400px;
   --size-420px: 420px;
-  --size-400px: 500px;
   --size-445px: 445px;
   --size-500px: 500px;
   
@@ -108,10 +108,9 @@ input {
   min-width: var(--size-420px);
   position: absolute;
   display: flex;
-  max-height: var(--size-60px);
   padding: 16px 0px 16px 20px;
   align-items: center;
-  border-radius: var(--size-20px);
+  border-radius: var(--border-radius-full);
   z-index: 0;
   border: none;
 }

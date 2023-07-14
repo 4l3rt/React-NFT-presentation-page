@@ -16,6 +16,12 @@
     margin-bottom: var(--size-10px);
 }
 
+.NFT__trending-heading p {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-160);
+}
+
 .NFT__trending-components {
     display: grid;
     grid-template: 525px / 1fr 1fr 1fr ;

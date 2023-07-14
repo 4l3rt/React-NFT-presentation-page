@@ -62,7 +62,7 @@
  }
 
 .NFT__header_img-container{
-    max-height: var(--size-400px);
+    max-height: var(--size-500px);
     display: flex;
     flex-direction: column;
     margin-left: var(--size-15px);
