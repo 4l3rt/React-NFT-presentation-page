@@ -1,19 +1,19 @@
 import React from "react";
 import './header.css'
 import imgLogo from '../../assets/RocketLaunch.png'
-import headerImg from '../../assets/Image Placeholder.png'
-import avatar from '../../assets/Avatar Placeholder.png'
+import spaceWalking from '../../assets/Space walking.gif'
 
 
 
 const Header = () => {
   return (
     <div className="NFT__header section-container">
-      <div className="content-spacer content-padding">
+      <div className="content-spacer content-padding header-speacer-mobile">
         <div className="NFT__header_heading-container">
             <h1 className="txt-basics NFT__header-heading" >Discover digital art & Collect NFTs</h1>
             <p className="txt-basics NFT__header_heading-txt" >NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
-            <button className="btn-basics"> <img className="logo-margin" src={imgLogo}/> Get Started</button>
+            <img className="NFT__header-gif-mobile" src={spaceWalking} alt="space walking gif here" />
+            <button className="btn-basics scale-down-center"> <img className="NFT__logo-margin" src={imgLogo} alt="rocket logo" /> Get Started</button>
             <div  className="NFT__header_info-container">
               <div className="NFT__header-info">
                 <h1 className="txt-basics">240k+ </h1>
@@ -29,15 +29,8 @@ const Header = () => {
               </div>
               </div>
           </div>
-          <div className="NFT__header_img-container">
-              <img src={headerImg}/>
-              <div className="NFT__header_img-info">
-                <h1 className="txt-basics">Space Walking</h1>
-                <div className="NFT__header_img-artist">
-                  <img className="logo-margin" src={avatar}/>              
-                  <p className="txt-basics" >Space Walking</p>
-                </div>
-            </div>
+          <div className="NFT__header_gif-container">
+              <img className="NFT__header-gif" src={spaceWalking} alt="space walking gif here" />
           </div>  
         </div>
       </div>

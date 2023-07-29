@@ -1,27 +1,166 @@
+.shroom-img, .shroom-gradient {
+    width: 100%;
+    max-height: 640px;
+}
+
 
 .shroom-img {
-    width: 100%;
+    position: relative;
+    z-index: -1;
+    background-image: url('../../assets/NFT Highlight.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.shroom-gradient {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: var(--shroom-gradient)
+}
+
+.shroom-img, .NFT__shroom-info{
+    height: 740px;
+}
+
+
+.NFT__shroom-info{
+    align-items: flex-end;
+}
+
+
+.NFT__shroom-card, .NFT__shroom-timer {
+    margin-bottom: 160px;
+}
+
+.NFT__shroom-author {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-10) var(--padding-20);
+    background-color: var(--bg-secondary);
+    border-radius: var(--border-radius-full);
+    max-width: 150px;
+}
+
+.NFT__shroom-author p {
+    font-family: var(--font);
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+    line-height: var(--line-height-140);
+}
+
+.NFT__shroom-heading {
+    margin: var(--margin-30) 0 var(--margin-30) 0;
+    font-size: var(--font-size-48) !important;
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-120);
+
+}
+
+.NFT__shroom-card button {
+    background-color: white;
+    color: black;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-600);
+    line-height: var(--line-height-140);
+    border: none;
+}
+
+.NFT__shroom-timer, .NFT__shroom-timer-mobile {
+    padding: 30px;
+    background: rgba(59, 59, 59, 0.50);
+    border-radius: var(--border-radius-full);
+    flex-direction: column;
+}
+
+.NFT__shroom-timer-mobile {
+    display: none;
+}
+
+.NFT__shroom-timer h1 {
+    font-family: var(--font-num);
+    font-size: var(--font-size-38);
+    font-weight: var(--font-weight-700);
+    line-height: var(--line-height-120);
+}
+
+.NFT__shroom-timer p {
+    font-family: var(--font-num);
+    font-size: var(--font-size-12);
+    font-weight: var(--font-weight-400);
+}
+
+.NFT__shroom-time {
+    display: flex;
+}
+
+.NFT__shroom-time div:not(:last-child) {
+    margin-right: var(--margin-10);
 }
 
 .NFT__howItWorks-content-padding {
-    padding-top: var(--size-40px);
-    padding-bottom: var(--size-80px);
+    padding: var(--padding-80) 0;
 }
 
-.NFT__howItWorks-heading h1 {
-    font-size: var(--font-size-38);
-    font-weight: var(--font-weight-600);
-    line-height: var(--line-height-120);
-    margin-bottom: var(--size-10px);
-}
-
-.NFT__howItWorks-heading p {
-    font-size: var(--font-size-22);
-    font-weight: var(--font-weight-400);
-    line-height: var(--line-height-160);
-    margin-bottom: var(--size-50px);
-}
 
 .NFT__howItWorks-components {
     display: flex;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .shroom-img {
+        height: 610px;
+        background-size: 100% 100%;
+    }
+    
+    .NFT__shroom-card, .NFT__shroom-timer {
+        margin-bottom: 185px;
+    }
+    .NFT__shroom-card h1 {
+        font-size:  var(--font-size-38);
+        font-weight: var(--font-weight-600);
+        line-height: var(--line-height-120);
+    }
+    .NFT__howItWorks-content-padding {
+        padding: var(--padding-40) 0;
+    }
+
+}
+@media screen and (max-width: 835px) {
+    .shroom-img {
+        background-size: 170% 120%;
+    }
+    
+    .NFT__shroom-timer {
+        display: none;
+    }
+    .NFT__shroom-card button {
+        width: 100%;
+    }
+    .NFT__shroom-timer-mobile {
+        display: block;
+        margin: var(--margin-30) 0;
+    }
+
+    .NFT__mobile-timer-h1 {
+        margin: 5px 0 !important;
+    }
+    .NFT__mobile-timer-h1:nth-child(1) {
+        margin-right: 10px !important;
+    }
+    
+}
+
+@media screen and (max-width: 635px) {
+    .shroom-img {
+        background-size: 190% 100%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .shroom-img {
+        background-size: 300% 100%;
+    }
 }

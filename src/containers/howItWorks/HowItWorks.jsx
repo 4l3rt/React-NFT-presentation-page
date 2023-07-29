@@ -1,20 +1,40 @@
 import React from 'react'
 import './howItWorks.css'
-import shroomImg from '../../assets/NFT Highlight.png'
+
+
+import avatar from '../../assets/Trending-Avatar2.png'
+import eye from '../../assets/Eye.png'
 import icon1 from '../../assets/Icon.png'
 import icon2 from '../../assets/Icon2.png'
 import icon3 from '../../assets/Icon3.png'
-import { GuideCard } from '../../components'
+import { GuideCard, Heading, Timer } from '../../components'
+
+
 
 const HowItWorks = () => {
+
   return (
     <div className='NFT__howItWorks section-container'>
-          <img src={shroomImg} className='shroom-img'/>
+          <div className='shroom-img'>
+            <div className='shroom-gradient'>
+                <div className='NFT__shroom-info content-spacer'>
+                  <div className='NFT__shroom-card column'>
+                    <div className='NFT__shroom-author'>
+                      <img className='NFT__logo-margin' src={avatar} alt="avatar"/>
+                       <p className='txt-basics'>Shroomie</p>
+                      </div>
+                      <h1 className='txt-basics NFT__shroom-heading'>Magic Mashrooms</h1>
+                      <Timer display='NFT__shroom-timer-mobile' countdownTimestampMs="212400"/>
+                      <button className='scale-down-center  btn-basics'><img src={eye} className='NFT__logo-margin' alt="eye" />See NFT</button>
+                    </div>
+                  <Timer display="NFT__shroom-timer" countdownTimestampMs="212400"/>    
+                </div>
+            </div>
+          </div>
       <div className='NFT__howItWorks-content-padding'>
           <div className='content-spacer '>
             <div className='NFT__howItWorks-heading'>
-                <h1 className='txt-basics'>How it works</h1>
-                <p className='txt-basics'>Find out how to get started</p>
+                <Heading h1="How it works" p="Find out how to get started"/>
             </div>
             </div>
             <div className='NFT__howItWorks-components content-spacer'>

@@ -7,3 +7,104 @@
 body {
   background-color: var(--color-bg);
 }
+
+.content-spacer {
+  width: 1050px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-cotainer {
+  width: 100%;
+}
+
+.content-padding {
+  padding: var(--padding-80) 0;
+}
+
+.content-footer-padding{
+  padding: var(--padding-40) 0;
+}
+
+.NFT__column {
+  flex-direction: column;
+}
+
+.txt-basics {
+  font-family: var(--font);
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.btn-basics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font);
+  color: var(--color-text);
+  font-size: var(--dont-size-16);
+  border-radius: var(--border-radius-full);
+  padding: var(--btn-primary-padding);
+  font-weight: var(--font-weight-600);
+  line-height: var(--line-height-140);
+  border: 2px solid var(--call-to-action, #A259FF);
+
+}
+
+.NFT__logo-margin {
+  margin-right: 12px;
+}
+
+input {
+  min-width: 420px;
+  position: absolute;
+  display: flex;
+  padding: 21px;
+  align-items: center;
+  border-radius: var(--border-radius-full);
+  z-index: 0;
+  border: none;
+  outline: none;
+}
+
+.scale-down-center {
+  transition: all 0.2s ease-out;
+} 
+
+.scale-down-center:hover {
+    transform: scale(0.95);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+  .content-spacer{
+    width: 690px;
+  }
+  .content-padding {
+    padding: var(--padding-40) 0;
+  }
+  .none{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 835px) {
+  .content-spacer{
+    max-width: var(--small-container);
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+
+
+
+

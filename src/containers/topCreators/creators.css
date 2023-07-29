@@ -1,13 +1,6 @@
 .NFT__creators {
-    padding-top: var(--size-80px);
+    padding-top: var(--padding-80);
     background-color: var(--color-bg);   
-}
-
-.creators-spacer {
-    width: 62%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 .NFT__creators-heading{
@@ -16,20 +9,10 @@
     justify-content: center;
 }
 
-.NFT__creators-heading h1 {
-    font-size: var(--font-size-38);
-    font-weight: var(--font-weight-600);
-    margin-bottom: var(--size-10px);
-}
-
-.NFT__creators-heading p {
-    font-size: var(--font-weight-22);
-    font-weight: var(--font-weight-400);
-}
 .NFT__creators button {
-    height: var(--size-60px);
-    padding: 0 var(--size-50px);
+    height: 60px;
     background-color: var(--color-bg);
+    margin-bottom: var(--margin-60);
 }
 
 .NFT__crators-button {
@@ -40,9 +23,43 @@
 .NFT__creators-containers {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(4, 1fr);
-    column-gap: var(--size-30px);
-    row-gap: var(--size-30px);
-    margin-top: var(--size-60px);
-    padding-bottom: var(--size-80px);
+    gap: var(--margin-30);
+    padding-bottom: var(--padding-80);
+}
+
+.NFT__button-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .NFT__creators {
+        padding-top: var(--padding-40);  
+    }
+    .NFT__creators button {
+        margin-bottom: var(--margin-40);
+    }
+    .NFT__creators-containers {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        padding-bottom: var(--padding-40);
+    }
+    .NFT__creators-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .NFT__creators-containers {
+        grid-template: repeat(5, 1fr) / 1fr;
+        padding-bottom: 0;
+    }
+
+    .NFT__medium-screen-button {
+        display: none;
+    }
+    .NFT__button-mobile{
+        display: flex;
+        margin-bottom: var(--margin-40);
+        margin-top: var(--margin-20);
+    }
 
 }

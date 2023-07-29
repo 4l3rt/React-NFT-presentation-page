@@ -1,55 +1,57 @@
 .NFT__footer {
     background-color: var(--bg-secondary);
+    margin-bottom: var(--margin-40);
 }
 
-.NFT__footer-section{
+.NFT__footer-section, .NFT__footer-submit-container, .NFT__footer-container {
+    display: flex;
     flex-direction: column;
 }
 
 .footer-info-spacer{
-    width: 58%;
+    width: 990px;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
-.NFT__logo{
+.NFT__logo-footer{
     display: flex;
     align-items: center;
-    margin-bottom: var(--size-30px);
+    margin-bottom: var(--margin-30);
 }
 
-.logo-txt {
-    max-height: var(--size-20px);
+.NFT__logo-txt-footer {
+    max-height: var(--margin-20);
 }
 
+.Footer__social-logo {
+    margin-right: 10px;
+}
 
 .NFT__footer-container {
     position: relative;
-    display: flex;
-    flex-direction: column;
 }
 
 .container-small{
-    max-width: var(--size-250px);
+    max-width: 250px;
 }
 
 .NFT__footer-submit-container {
-    width: var(--size-420px);
+    width: 420px;
     position: relative;
-    display: flex;
-    flex-direction: column;
+  
 }
 
 .NFT__footer-container-heading {
     font-family: var(--font-num);
     font-size: var(--font-size-22);
     font-weight: var(--font-weight-700);
-    margin-bottom: var(--size-30px);
+    margin-bottom: var(--margin-30);
 }
 
 .NFT__footer-txt-secondary {
-    max-width: var(--size-330px);
+    max-width: var(--medium-container);
     font-family: var(--font);
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-400);
@@ -58,34 +60,33 @@
 }
 
 .NFT__footer-secondary-margin {
-    margin-bottom: var(--size-20px);
+    margin-bottom: var(--margin-20);
 }
 
 .NFT__footer-community-margin {
-    margin-bottom: var(--size-15px);
+    margin-bottom: var(--margin-15);
 }
 
-.NFT__joinus-submit {
-    margin-top: var(--size-40px);
-}
+.NFT__footer-submit {
+    width: 420px;
+    height: 60px;
+    margin-bottom: var(--margin-50);
 
-.NFT__joinus-submit button {
+}
+.NFT__footer-submit button {
     position: absolute;
     right: 0px;
     background-color: var(--color-primary);
     display: flex;
     align-items: center;
-    max-height: var(--size-60px);
+    max-height: 58px;
     padding: var(--btn-primary-padding);
     z-index: 1;
 }
-
-
 .footer-line-spacer {
-    width: 67%;
+    width: 1080px;
     margin: auto;
 }
-
 .copyright {
     width: 100%;
 }
@@ -94,7 +95,8 @@
     width: 100%;
     height: 1px;
     background-color: var(--caption-label-text);
-    margin-bottom: var(--size-20px);
+    margin-bottom: var(--margin-20);
+    margin-top: var(--margin-30);
 }
 
 .copyright-txt {
@@ -103,4 +105,99 @@
     font-weight: var(--font-weight-400);
     line-height: var(--line-height-110);
     color: var(--text-secondary)
+}
+
+.NFT__footer-btn-envelope-logo {
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .NFT__logo-txt-footer {
+        min-width: 190px;
+        margin-bottom: none;
+        margin-top: var(--margin-10);
+    }
+
+    .container-small {
+        max-width: 700px;
+    }
+
+    .footer-info-spacer {
+        display: flex;
+        flex-direction: column;
+    }
+    input{
+        position: absolute;
+        z-index: 0;
+    }
+    .footer-btn {
+        z-index: 1 !important;
+    }
+    .NFT__footer-submit {
+        margin-bottom: 50px;
+    }
+
+    .NFT__footer-container-heading {
+        margin-bottom: var(--margin-20);
+    }
+
+    .NFT__footer-socal-links {
+        margin-bottom: 30px;
+    }
+
+    .NFT__footer-txt-secondary {
+        max-width: 100%;
+    }
+
+    .footer-info-spacer, .footer-line-spacer{
+        width: 690px;
+    }
+
+    .line {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .NFT__logo-footer {
+        margin-bottom: var(--margin-20);
+    }
+    .NFT__logo-txt-footer {
+        margin-bottom: 5px;
+    }
+    .NFT__footer-submit{
+        margin-top: 0px !important ;
+    }
+    .NFT__footer-submit, .NFT__footer-input, .footer-btn  {
+        position: static !important ;
+        min-width: 300px;
+    }
+    .footer-info-spacer, .footer-line-spacer, .NFT__footer-txt-secondary {
+        max-width: var(--small-container);
+    }
+    .footer-btn, .NFT__footer-submit input {
+        width: 100%;
+    }
+     .footer-btn {
+        height: 46px;
+    }
+    .NFT__footer-submit input {
+        height: 46px;
+    }
+    .NFT__footer-input {
+        margin-bottom: var(--margin-15);
+    }
+    .NFT__footer-submit-container, .NFT__footer-submit {
+      width: auto;
+    }
+    .NFT__footer-submit-container{
+        margin-bottom: var(--margin-30);
+    }
+    .NFT__footer-container {
+        margin-bottom: var(--margin-10);
+    }
+    .NFT__footer-btn-envelope-logo {
+        display: block;
+    }
+    
 }

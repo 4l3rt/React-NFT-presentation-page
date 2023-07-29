@@ -10,14 +10,16 @@
   --border-radius-top: 20px 20px 0 0;
   --border-radius-bottom: 0 0 20px 20px;
 
-  --font-size-67: 67px;
-  --font-size-38: 38px;
-  --font-size-28: 28px;
-  --font-size-24: 24px;
-  --font-size-22: 22px;
-  --font-size-16: 16px;
   --font-size-12: 12px;
-
+  --font-size-16: 16px;
+  --font-size-22: 22px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-38: 38px;
+  --font-size-48: 48px;
+  --font-size-58: 58px;
+  --font-size-67: 67px;
+  
   --font-weight-200: 200;
   --font-weight-400: 400;
   --font-weight-500: 500;
@@ -29,27 +31,32 @@
   --line-height-140: 140%;
   --line-height-160: 160%;
 
-  --size-5px: 5px;
-  --size-10px: 10px;
-  --size-15px: 15px;
-  --size-20px: 20px;
-  --size-25px: 25px;
-  --size-30px: 30px;
-  --size-40px: 40px;
-  --size-50px: 50px;
-  --size-60px: 60px;
-  --size-80px: 80px;
-  --size-100px: 100px;
-  --size-150px: 150px;
-  --size-200px: 200px;
-  --size-240px: 240px;
-  --size-250px: 250px;
-  --size-270px: 270px;
-  --size-330px: 330px;
-  --size-400px: 400px;
-  --size-420px: 420px;
-  --size-445px: 445px;
-  --size-500px: 500px;
+  --margin-5: 5px;
+  --margin-10: 10px;
+  --margin-15: 15px;
+  --margin-20: 20px;
+  --margin-25: 25px;
+  --margin-30: 30px;
+  --margin-40: 40px;
+  --margin-60: 60px;
+  --margin-80: 80px;
+
+  --padding-10: 10px;
+  --padding-15: 15px;
+  --padding-20: 20px;
+  --padding-25: 25px;
+  --padding-30: 30px;
+  --padding-40: 40px;
+  --padding-50: 50px;
+  --padding-60: 60px;
+  --padding-80: 80px;
+  
+
+  --small-logo: 24px;
+  --large-container: 510px;
+  --medium-container: 330px;
+  --small-container: 315px;
+
   
 
   --color-primary: #A259FF;
@@ -59,62 +66,14 @@
   --color-bg: #2B2B2B;
   --bg-secondary: #3B3B3B;
   --color-gradient: linear-gradient(127deg, #FFB629 0%, #FFDA56 50.72%, #FFD7A6 100%);
+  --shroom-gradient: linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%);
 }
 
-.content-spacer {
-  width: 62.5%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
+@media screen and (max-width: 1050px) {
+  :root {
+    --font-size-67: 38px;
+    --line-height-110: 120%;
+    --line-height-160: 140%;
+
+  }
 }
-
-.section-cotainer {
-  width: 100%;
-}
-
-.content-padding {
-  padding: var(--size-80px) 0;
-}
-
-.content-footer-padding{
-  padding: var(--size-40px) 0;
-}
-
-.txt-basics {
-  font-family: var(--font);
-  text-transform: capitalize;
-  color: var(--color-text);
-}
-
-.btn-basics {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font);
-  padding: var(--btn-primary-padding);
-  font-size: var(--dont-size-16);
-  font-weight: var(--font-weight-600);
-  border-radius: var(--size-20px);
-  color: var(--color-text);
-  border: 2px solid var(--call-to-action, #A259FF);
-}
-
-.logo-margin {
-  margin-right: 12px;
-}
-
-input {
-  min-height: 58px;
-  min-width: var(--size-420px);
-  position: absolute;
-  display: flex;
-  padding: 16px 0px 16px 20px;
-  align-items: center;
-  border-radius: var(--border-radius-full);
-  z-index: 0;
-  border: none;
-  outline: none;
-}
-
-
-

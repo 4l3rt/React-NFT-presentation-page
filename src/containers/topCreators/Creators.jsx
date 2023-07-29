@@ -1,25 +1,25 @@
 import React from 'react'
 import './creators.css'
 import rocket from '../../assets/RocketLaunch2.png'
-import Creator from '../../components/creator/Creator'
+import { Creator, Heading } from '../../components'
 import { creatorData } from './index.js'
 
 const Creators = () => {
   return (
     <div className='NFT__creators'>
-        <div className='creators-spacer'>
+        <div className='content-spacer'>
             <div className='NFT__creators-heading'>
-                <h1 className='txt-basics'>Top creators</h1>
-                <p className='txt-basics'>Checkout Top Rated Creators on the NFT Marketplace</p>
+                <Heading h1="Top creators" p="Checkout Top Rated Creators on the NFT Marketplace" />
             </div>
             <div className='NFT__crators-button'>
-            <button className='btn-basics'><img className='logo-margin' src={rocket} alt='Rocket logo'/>View Rankings</button>
+            <button className='btn-basics NFT__medium-screen-button scale-down-center '><img className='NFT__logo-margin' src={rocket} alt='Rocket logo'/>View Rankings</button>
             </div>
         </div>
-        <div className='NFT__creators-containers creators-spacer'>
+        <div className='NFT__creators-containers content-spacer'>
             {creatorData.map((item, index) => (
-                <Creator img={item.img} creator={item.creator} num={item.num} key={item.img + index} />
+                <Creator img={item.img} creator={item.creator} num={item.num} smallScreenDisplay={item.display} key={item.img + index} />
             ))}
+                    <button className='btn-basics NFT__button-mobile scale-down-center '><img className='NFT__logo-margin' src={rocket} alt='Rocket logo'/>View Rankings</button>
         </div>
     </div>
   )

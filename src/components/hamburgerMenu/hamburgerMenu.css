@@ -1,0 +1,61 @@
+.NFT__navbar-hamburgerMenu {
+    width: var(--small-logo);
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+    .NFT__navbar-hamburgerMenu {
+        display: block;
+    }
+
+    .NFT__navbar-hamburgerMenu div {
+        display: none;
+    }
+
+    .active {
+        position: sticky;
+        
+    }
+
+    .active div {
+        position: absolute;
+        top: 22px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--bg-secondary);
+        min-width: 120px;
+        border-radius: 20% 0% 20px 20px;
+        padding-bottom: 5px;
+    }
+
+    .active a, .NFT__hamburgerMenu-active-sign-up{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .NFT__hamburgerMenu-active-sign-up {
+        border-radius: var(--border-radius-full);
+        border: 0;
+        background-color: var(--color-primary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px
+
+    }
+
+    
+    .active a:hover {
+        background-color: var(--color-bg);
+        border: 2px solid var(--color-primary);
+        border-radius: var(--border-radius-full)
+
+    }
+}

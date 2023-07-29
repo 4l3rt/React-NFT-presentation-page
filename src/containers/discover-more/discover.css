@@ -1,26 +1,27 @@
-.NFT_discover-heading {
-    flex-direction: column;
-}
 
-.NFT__discover-heading h1 {
-    font-size: var(--font-size-38);
-    font-weight: var(--font-weight-600);
-    line-height: var(--line-height-120);
-    margin-bottom: var(--size-10px);
-}
-
-.NFT__discover-heading p {
-    font-size: var(--font-size-22);
-    font-weight: var(--font-weight-400);
-    line-height: var(--line-height-160);
-}
 
 .NFT__discover button {
-    margin-top: var(--size-40px);
-    max-height: var(--size);
+    margin-top: var(--margin-20);
+    max-height: var(--margin-60);
     background-color: var(--color-bg);
+    max-width: var(--container-small);
 }
 
-.NFT__discover-nfts {
-    margin-top: 60px;
+@media screen and (max-width: 1280px) {
+    .NFT__discover {
+        padding-bottom: var(--padding-80)
+    }
+    .NFT__discover button {
+        margin-top: 0;
+    }
 }
+
+@media screen and (max-width: 835px) {
+    .mobile-margin{
+        margin-bottom: var(--margin-20);
+    }
+    .NFT__discover {
+        padding-bottom: var(--padding-40)
+    }
+}
+

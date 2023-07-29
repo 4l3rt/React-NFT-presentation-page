@@ -1,36 +1,41 @@
-.NFT__nft {
+.NFT__nft-heading, .NFT__nft {
     display: flex;
     flex-direction: column;
 }
 
-.NFT__nft-heading {
+.mediumScreen-display {
     display: flex;
-    padding: 20px 30px 25px 30px;
-    flex-direction: column;
+}
+
+.NFT__nft-heading {
+    padding: var(--padding-20) var(--padding-30) var(--padding-25) var(--padding-30);
+    z-index: 1;
     align-items: flex-start;
     align-self: stretch;
     background-color: var(--bg-secondary);
     border-radius: var(--border-radius-bottom);
 }
 
-.title{
+.title, .author, .quantity {
+    line-height: var(--line-height-140);
+}
+
+.title {
     font-size: var(--font-size-22);
     font-weight: var(--font-weight-600);
-    line-height:var(--line-height-140);
-    margin-bottom: var(--size-5px);
+    margin-bottom: var(--margin-5);
 }
 
 .author-card {
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-bottom: var(--size-25px);
+    margin-bottom: var(--margin-25);
 }
 
 .author {
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-400);
-    line-height: var(--line-height-140);
 }
 
 .NFT__nft-prices {
@@ -44,7 +49,7 @@
     font-size: var(--font-size-12);
     font-weight: var(--font-weight-400);
     line-height: var(--line-height-110);
-    margin-bottom: var(--size-10px);
+    margin-bottom: var(--margin-10);
     color: var(--caption-label-text)
 }
 
@@ -52,5 +57,28 @@
     font-family: var(--font-num);
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-400);
-    line-height: var(--line-height-140);
+}
+
+@media screen and (max-width: 835px) {
+    .NFT__nft{
+        margin-bottom: var(--margin-20);
+        max-width: var(--small-container);
+    }
+    .mobile {
+        display: block;
+    }
+    .NFT__nft-img{
+        position: absolute;
+        overflow: hidden;
+        max-width: var(--small-container);
+        z-index: 0;
+    }
+    .NFT__nft-img-wrapper{
+        position: relative;
+        height: 238px;
+    }
+
+    .NFT__nft-heading {
+    min-width: var(--small-container);
+    }
 }

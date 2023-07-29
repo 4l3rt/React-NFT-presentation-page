@@ -20,31 +20,37 @@ export const categoryData = [
         img: img1,
         icon: icon1,
         category: 'Art',
+        container: 'shorter-container'
     },
     {
         img: img2,
         icon: icon2,
         category: 'Collectibles',
+        container: 'shorter-container'
     },
     {
         img: img3,
         icon: icon3,
         category: 'Music',
+        container: 'shorter-container'
     },
     {
         img: img4,
         icon: icon4,
         category: 'Photography',
+        container: 'shorter-container'
     },
     {
         img: img5,
         icon: icon5,
         category: 'Video',
+        container: 'phone-display__shorter-container'
     },
     {
         img: img6,
         icon: icon6,
         category: 'Utility',
+        container: 'phone-display__shorter-container'
     },
     {
         img: img7,

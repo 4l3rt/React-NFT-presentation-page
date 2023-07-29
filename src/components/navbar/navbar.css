@@ -1,40 +1,62 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+a {
+    text-decoration: none;
+}
+
+.NFT__navbar, .NFT__logo-navbar, .NFT__navbar-anchors{
+    display: flex;
+    align-items: center;
+}
+
 .NFT__navbar{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: var(--size-20px) var(--size-50px);
+    padding: var(--padding-20) var(--padding-50);
 }
 
-.NFT__logo{
-    display: flex;
-    align-items: center;
+.NFT__market-logo {
+    margin-bottom: var(--margin-5);
 }
 
-.NFT__navbar-logo img:first-child {
-    width: var(--size-30px);
-    height: var(--size-30px);
-    margin-right: var(--size-10px);
+.NFT__logo-txt {
+    width: 190px 
+    
 }
 
-.NFT__navbar-anchors {
-    display: flex;  
-    align-items: center;
-}
 
-.NFT__navbar-anchors a {
-    padding: 0 var(--size-20px);
-    margin-right: var(--size-10px);
-    font-size: var(--font-size-16);
-    font-weight: var(--font-weight-500);
-}
-
-.NFT__navbar-anchors button {
-    padding: var(--btn-small-padding);
-    background-color: var(--color-primary);
+.NFT__navbar-anchors a, .NFT__navbar-anchors button  {
     font-size: var(--font-size-16);
     font-weight: var(--font-weight-500);
     line-height: var(--line-height-140);
 }
 
+.NFT__navbar-anchors a {
+    padding: 0 var(--padding-20);
+    margin-right: var(--margin-10);
+}
+
+.NFT__navbar-anchors button {
+    padding: var(--btn-small-padding);
+    background-color: var(--color-primary);
+}
+
+@media screen and (max-width: 1280px) {
+    .NFT__navbar{
+        padding: var(--padding-15) var(--padding-50);
+    }
+    .NFT__market-logo {
+        max-width: var(--small-logo);;
+    }
+    .NFT__logo-txt {
+        width: 140px !important;
+    }
+    .NFT__navbar-anchors {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .NFT__navbar{
+        padding: var(--padding-15) var(--padding-20);
+    }
+}

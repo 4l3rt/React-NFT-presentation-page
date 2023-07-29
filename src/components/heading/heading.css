@@ -1,0 +1,31 @@
+.NFT__heading-component h1 {
+    font-size: var(--font-size-38);
+    font-weight: var(--font-weight-600);
+    margin-bottom: var(--margin-10);
+}
+
+.NFT__heading-component p {
+    font-size: var(--font-size-22);
+    font-weight: var(--font-weight-400);
+    margin-bottom: var(--margin-60);
+    
+}
+
+.NFT__heading-component {
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1280px) {
+    .NFT__heading-component h1 {
+        font-size: var(--font-size-28);
+    }
+    .NFT__heading-component p {
+        font-size: var(--font-size-16);
+        margin-bottom: var(--margin-40);
+        max-width: 400px;
+    }
+}
