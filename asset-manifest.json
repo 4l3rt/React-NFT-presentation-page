@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/React-NFT-presentation-page/static/css/main.a91ad1f6.css",
-    "main.js": "/React-NFT-presentation-page/static/js/main.a3fb8e57.js",
+    "main.css": "/React-NFT-presentation-page/static/css/main.e414f9ca.css",
+    "main.js": "/React-NFT-presentation-page/static/js/main.d82d61ec.js",
+    "static/media/Space walking.gif": "/React-NFT-presentation-page/static/media/Space walking.fbb75e25fb069167c8a9.gif",
     "static/media/NFT Highlight.png": "/React-NFT-presentation-page/static/media/NFT Highlight.e521ee7e6b3cb8ce8cb4.png",
-    "static/media/Image Placeholder.png": "/React-NFT-presentation-page/static/media/Image Placeholder.5beb3ee233410deddc60.png",
     "static/media/joinus.png": "/React-NFT-presentation-page/static/media/joinus.ae895aa1131a015bb9e4.png",
     "static/media/Trending-img1.png": "/React-NFT-presentation-page/static/media/Trending-img1.c16ef1c33378558015ad.png",
     "static/media/Trending-img2.png": "/React-NFT-presentation-page/static/media/Trending-img2.dcefb1f80fddad0e7e7f.png",
     "static/media/Image Placeholder NFT1.png": "/React-NFT-presentation-page/static/media/Image Placeholder NFT1.bb173184dea66218cb47.png",
     "static/media/Image Placeholder NFT2.png": "/React-NFT-presentation-page/static/media/Image Placeholder NFT2.b4f1c3574d65b1566e48.png",
     "static/media/Image Placeholder NFT3.png": "/React-NFT-presentation-page/static/media/Image Placeholder NFT3.f79d4bd1374d7725fa70.png",
+    "static/media/tabletAustronaut.png": "/React-NFT-presentation-page/static/media/tabletAustronaut.2d4dca48ed82a6a651f9.png",
     "static/media/Trending-img3.png": "/React-NFT-presentation-page/static/media/Trending-img3.2443e6225979c8defcb1.png",
+    "static/media/phoneAustronaut.png": "/React-NFT-presentation-page/static/media/phoneAustronaut.47fa6aae53aa57ec341e.png",
     "static/media/Image Placeholder6.png": "/React-NFT-presentation-page/static/media/Image Placeholder6.afef9fe579aed6dce20b.png",
     "static/media/Image Placeholder7.png": "/React-NFT-presentation-page/static/media/Image Placeholder7.21446f901e4df939f6b2.png",
     "static/media/Image Placeholder5.png": "/React-NFT-presentation-page/static/media/Image Placeholder5.f91a4f027f40e59d1eab.png",
@@ -41,11 +43,11 @@
     "static/media/Trending-img8.png": "/React-NFT-presentation-page/static/media/Trending-img8.910b1628754eb98ed31e.png",
     "static/media/Trending-img9.png": "/React-NFT-presentation-page/static/media/Trending-img9.10f21560dd11c066ce87.png",
     "index.html": "/React-NFT-presentation-page/index.html",
-    "main.a91ad1f6.css.map": "/React-NFT-presentation-page/static/css/main.a91ad1f6.css.map",
-    "main.a3fb8e57.js.map": "/React-NFT-presentation-page/static/js/main.a3fb8e57.js.map"
+    "main.e414f9ca.css.map": "/React-NFT-presentation-page/static/css/main.e414f9ca.css.map",
+    "main.d82d61ec.js.map": "/React-NFT-presentation-page/static/js/main.d82d61ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.a91ad1f6.css",
-    "static/js/main.a3fb8e57.js"
+    "static/css/main.e414f9ca.css",
+    "static/js/main.d82d61ec.js"
   ]
 }
